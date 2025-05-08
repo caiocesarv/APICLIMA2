@@ -6,8 +6,8 @@ from tkinter import messagebox
 ctk.set_appearance_mode("System")  # "Dark", "Light", ou "System"
 ctk.set_default_color_theme("blue")  # Pode trocar para "dark-blue", "green", etc.
 
-# Sua chave da API aqui
-API_KEY = "ccb6bd2fe21d528e806f7f6b56360891"
+# Sua chave da API
+API_KEY = ""
 
 def buscar_clima():
     cidade = entrada_cidade.get().strip().replace(" ", "%20")
