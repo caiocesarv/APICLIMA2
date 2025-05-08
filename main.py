@@ -21,7 +21,7 @@ def buscar_clima():
             clima = dados["weather"][0]["description"]
             temperatura = dados["main"]["temp"]
 
-            resultado = f"🌤️ Clima: {clima.capitalize()}\n🌡️ Temperatura: {temperatura}°C"
+            resultado = f"Clima: {clima.capitalize()}\n Temperatura: {temperatura}°C"
             label_resultado.configure(text=resultado)
 
         except requests.exceptions.HTTPError:
